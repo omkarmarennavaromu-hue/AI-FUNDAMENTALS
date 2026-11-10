@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Day Trader skill runtime state (written by the skills, not source)
+trader/universe.txt
+trader/watchlist.json
+trader/news.json
+trader/plan.json
+trader/orders.json
+trader/checks.json
+trader/alerts.json
+trader/broker.json
+trader/timemachine.json
+
+# Never commit real account config or credentials
+trader/config.local.json
+.env
+
+# runtime state dir written by trader-risk / trader-broker
+trader/state/
